@@ -5,19 +5,21 @@ body {
  
 }
 
-header {
-  background: #38a169;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  text-align: center;
-  max-height: 71px;
-  width: 100%;
 
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
 }
 
-header h1 {
-  color: white;
-  margin: 0;
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+  outline: 0;
 }
 
 nav {
@@ -53,23 +55,48 @@ max-height: 2000px;
     flex-direction: column;
     word-wrap: break-word;
 }
-.center{
- position:absolute;
- margin-top: 120px;
- margin-left: 308px;
- text-align: center;
- font-size: 45px;
- font-family: "Milky River Cyrillic", "Arial Cyrillic", cursive, sans-serif;
+.banner {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* хүссэн хэмжээгээр хязгаарлаж болно */
+  margin: auto;
+}
 
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
-.center1{
- position:absolute;
- margin-top: 220px;
- margin-left: 400px ;
- text-align: center;
- font-size: 45px;
-font-family: "Milky River Cyrillic", "Arial Cyrillic", cursive, sans-serif;
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 3vw; /* responsive хэмжээ: дэлгэцийн өргөнөөс хамаарна */
+  font-weight:lighter;
+  font-family:"Milky River Cyrillic", "Arial Cyrillic", cursive, sans-serif;
+  text-shadow: 2px 2px 8px rgba(206, 194, 194, 0.7);
+  line-height: 1.2;
+  padding: 0 10px; /* утасны жижиг дэлгэц дээр наалдахаас хамгаална */
 }
+
+/* Жижиг дэлгэц (утас) */
+@media (max-width: 768px) {
+  .banner-text {
+    font-size: 5vw;
+  }
+}
+
+/* Маш жижиг дэлгэц (гар утас) */
+@media (max-width: 480px) {
+  .banner-text {
+    font-size: 6vw;
+  }
+}
+
 .img{
   width: 100%;
   height: auto;
@@ -99,16 +126,7 @@ font-family: "Milky River Cyrillic", "Arial Cyrillic", cursive, sans-serif;
   color: #09140f;
 }
 
-.card {
-max-height: 2000px;
-    align-items: center;
-    margin: 20px auto;
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    flex-direction: column;
-    max-width: 500px;
-}
+
 .ingredients {
   margin: 10px 0;
 }
@@ -116,13 +134,7 @@ max-height: 2000px;
 .ingredients ul {
   padding-left: 20px;
 }
-.garcigzurag {
-  height: 400px;
-  width:1200px;
-  background-image: url("banner.jpg") ;
- background-size: cover;
-  align-items: center;
-}
+
 .button {
   border: none;
   color: white;
@@ -162,6 +174,11 @@ section{
     justify-content: space-between;
     flex-direction: column;
     word-wrap: break-word;
+}
+.menu {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2vw;
 }
 
 
