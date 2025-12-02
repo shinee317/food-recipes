@@ -1,0 +1,43 @@
+.game{
+    width: 600px ;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+}
+#dina{
+    width: 70px;
+    height: 32px;
+    background-image: url(./dina.png);
+    background-size: 60px, 60px;
+    position: relative;
+    top:130px; 
+}
+.jump{
+    animation: jump 0.3s linear ;
+}
+@keyframes jump{
+    0%{
+        top:150px;
+    }
+    30%{
+        top:130px;
+    }
+    50%{
+        top:80px;
+    }
+    80%{
+        top:130px;
+    }
+    100%{
+        top:150px;
+    }
+
+}
+#cactus{
+    width: 20px;
+    height:20px;
+    position: relative;
+    top:110px;
+    left:580px;
+    background-color: black;
+}

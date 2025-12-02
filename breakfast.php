@@ -18,7 +18,7 @@
     <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
       <li>
 
-        <a href="index.html" class="nav-link text-black">
+        <a href="index.php" class="nav-link text-black">
           <svg class="bi d-block mx-auto mb-1" width="32px" height="32px" viewBox="0 0 24 24" fill="#66ff00"
             xmlns="http://www.w3.org/2000/svg">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -45,7 +45,7 @@
         </a>
       </li>
       <li>
-        <a href="breakfast.html" class="nav-link text-secondary  " style="background-color: #CBF3BB;">
+        <a href="breakfast.php" class="nav-link text-secondary  " style="background-color: #CBF3BB;">
           <svg class="bi d-block mx-auto mb-1" fill="#1ad527" height="32px" width="32px" version="1.1" id="Layer_1"
             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"
             xml:space="preserve" stroke="#1ad527">
@@ -73,7 +73,7 @@
 
       </li>
       <li>
-        <a href="dinner.html" class="nav-link text-black">
+        <a href="dinner.php" class="nav-link text-black">
           <svg class="bi d-block mx-auto mb-1" fill="#66ff00" height="32px" width="32px" version="1.1" id="Layer_1"
             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 503.607 503.607"
             xml:space="preserve" stroke="#66ff00">
@@ -93,7 +93,7 @@
         </a>
       </li>
       <li>
-        <a href="cake.html" class="nav-link text-black">
+        <a href="cake.php" class="nav-link text-black">
           <svg class="bi d-block mx-auto mb-1" fill="#66ff00" height="32px" width="32px" version="1.1" id="Capa_1"
             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px"
             viewBox="0 0 320.673 320.672" xml:space="preserve">
@@ -121,7 +121,7 @@
         </a>
       </li>
       <li>
-        <a href="smooti.html" class="nav-link text-black">
+        <a href="smooti.php" class="nav-link text-black">
           <svg class="bi d-block mx-auto mb-1" height="32px" width="32px" version="1.1" id="Layer_1"
             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.001 512.001"
             xml:space="preserve" fill="#66ff00" stroke="#66ff00">
@@ -138,7 +138,13 @@
           </svg>
           Смүүти
         </a>
-
+        <li >
+            <a href="recipeform.php" class="nav-link text-black"  >
+                       <svg class='bi d-block mx-auto mb-1'fill="#66ff00" height="32px" width="32px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" stroke="#66ff00"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M165.466,236.809H147.46c-13.677,0-24.803,11.128-24.803,24.804s11.127,24.804,24.803,24.804h18.006 c13.677,0,24.804-11.128,24.804-24.804S179.143,236.809,165.466,236.809z"></path> </g> </g> <g> <g> <path d="M299.065,79.806c-16.07,0-31.394,6.086-43.065,16.586c-11.671-10.499-26.994-16.586-43.065-16.586H60.834V371.36h390.332 V79.806H299.065z M101.45,134.332h110.027v30.417H101.45V134.332z M165.466,316.835H147.46c-30.449,0-55.22-24.773-55.22-55.221 c0-28.35,21.478-51.768,49.015-54.864v-22.438h30.417v22.438c27.537,3.095,49.015,26.514,49.015,54.864 C220.687,292.062,195.915,316.835,165.466,316.835z M410.551,316.835L410.551,316.835H300.524v-30.417h110.027V316.835z M410.551,266.14L410.551,266.14H300.524v-30.417h110.027V266.14z M410.551,215.444L410.551,215.444H300.524v-30.417h110.027 V215.444z M410.551,164.749L410.551,164.749H300.524v-30.417h110.027V164.749z"></path> </g> </g> <g> <g> <polygon points="481.583,98.153 481.583,401.777 30.417,401.777 30.417,98.153 0,98.153 0,432.194 0.001,432.194 512,432.194 512,98.153 "></polygon> </g> </g> </g></svg>
+                  Шинэ жор нэмэх
+                
+                  </a>
+                </li>
       </li>
       <li>
         <form class="  mx-5 my-3 mb-1" role="search">
@@ -147,10 +153,10 @@
       </li>
       <li>
         <div class="text-end mx-5 my-3 mb-1">
-          <button type="button" class="btn btn-light text-dark me-2">
+          <!-- <button type="button" class="btn btn-light text-dark me-2">
             Нэвтрэх
           </button>
-          <button type="button" class="btn btn-success text-green">Бүртгүүлэх</button>
+          <button type="button" class="btn btn-success text-green">Бүртгүүлэх</button> -->
         </div>
       </li>
     </ul>
